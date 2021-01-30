@@ -1,0 +1,43 @@
+base_info:
+  title: 爬坑日记
+  author: qgyyohj
+  url: https://qgyyohj.github.io/
+
+menu:
+  Home: /
+  Archives: /archives
+  # Categories: /categories
+  Tags: /tags
+  # Links: /links
+  About: /about
+  # ...
+
+# 内置“不蒜子”计数
+busuanzi_count:
+  enable: true
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+# 搜索框
+local_search:
+  enable: true
+  trigger: auto
+  unescape: false
+  preload: true
+
+# 文章字数 阅读时长统计
+post_wordcount:
+  enable: true
+  wordcount: true
+  min2read: true
+
+# 文章目录结构
+toc:
+  enable: true
+
+  # Automatically add list number to toc.
+  number: true
+
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: true
