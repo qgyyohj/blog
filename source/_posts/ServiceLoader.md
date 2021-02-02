@@ -6,7 +6,7 @@ tags:
 
 >日常开发中开发的多是API(Application Programming Interface)，定义接口，编定实现类，供调用方调用；
 >
->SPI(Service Provider Interface) 是另上种接口，由调用方定义，比如JDBC，接口在`java.sql`包中，通过`Class#forName`将实现类加载到内存中，供调用方使用
+>SPI(Service Provider Interface) 是另一种接口，由调用方定义，比如JDBC，接口在`java.sql`包中，通过`Class#forName`将实现类加载到内存中，供调用方使用
 >
 >这篇文章来记录一个不一定有用但很好玩的接口`java.util.ServiceLoader`
 
